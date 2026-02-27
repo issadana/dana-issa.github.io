@@ -1,0 +1,27 @@
+{
+  "name": "dana-issa.github.io",
+  "version": "1.0.0",
+  "description": "A modern, responsive, and attractive portfolio website showcasing professional experience, skills, education, and projects.",
+  "main": "script.js",
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,html,css,json,md}\"",
+    "format:check": "prettier --check \"**/*.{js,html,css,json,md}\"",
+    "format:watch": "prettier --write \"**/*.{js,html,css,json,md}\" --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/issadana/dana-issa.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/issadana/dana-issa.github.io/issues"
+  },
+  "homepage": "https://github.com/issadana/dana-issa.github.io#readme",
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  }
+}

@@ -1,542 +1,669 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dana Issa - Flutter Developer | Mobile App Developer | Full Stack Developer with expertise in Flutter, Dart, Next.js, and TypeScript">
-    <meta name="keywords" content="Dana Issa, Flutter Developer, Mobile Developer, Full Stack Developer, Lebanon, Software Engineer">
-    <meta name="author" content="Dana Issa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Dana Issa - Flutter Developer | Mobile App Developer | Full Stack Developer with expertise in Flutter, Dart, Next.js, and TypeScript"
+    />
+    <meta
+      name="keywords"
+      content="Dana Issa, Flutter Developer, Mobile Developer, Full Stack Developer, Lebanon, Software Engineer"
+    />
+    <meta name="author" content="Dana Issa" />
     <title>Dana Issa | Flutter & Full Stack Developer</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
-        <div class="container">
-            <div class="nav-brand">
-                <a href="#home">Dana Issa</a>
-            </div>
-            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="#home" class="nav-link active">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#experience" class="nav-link">Experience</a></li>
-                <li><a href="#education" class="nav-link">Education</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
+      <div class="container">
+        <div class="nav-brand">
+          <a href="#home">Dana Issa</a>
         </div>
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-background">
-            <div class="gradient-overlay"></div>
-        </div>
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <p class="hero-greeting">Hello, I'm</p>
-                    <h1 class="hero-name">Dana Issa</h1>
-                    <p class="hero-title">
-                        <span class="typing-text" id="typingText"></span>
-                        <span class="cursor">|</span>
-                    </p>
-                    <p class="hero-description">
-                        Motivated Flutter Developer with expertise in mobile app development, QA testing, and full stack technologies. Passionate about creating intuitive user experiences and delivering high-quality digital solutions.
-                    </p>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                        <a href="#projects" class="btn btn-secondary">View My Work</a>
-                    </div>
-                    <div class="hero-social">
-                        <a href="https://www.linkedin.com/in/dana-issa-a9a057290" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="mailto:dana.issa00@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
-                        <a href="tel:+96170806571" aria-label="Phone"><i class="fas fa-phone"></i></a>
-                    </div>
-                </div>
+      <div class="hero-background">
+        <div class="gradient-overlay"></div>
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Dana Issa</h1>
+            <p class="hero-title">
+              <span class="typing-text" id="typingText"></span>
+              <span class="cursor">|</span>
+            </p>
+            <p class="hero-description">
+              Motivated Flutter Developer with expertise in mobile app
+              development, QA testing, and full stack technologies. Passionate
+              about creating intuitive user experiences and delivering
+              high-quality digital solutions.
+            </p>
+            <div class="hero-buttons">
+              <a href="#contact" class="btn btn-primary">Get In Touch</a>
+              <a href="#projects" class="btn btn-secondary">View My Work</a>
             </div>
+            <div class="hero-social">
+              <a
+                href="https://www.linkedin.com/in/dana-issa-a9a057290"
+                target="_blank"
+                aria-label="LinkedIn"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://github.com" target="_blank" aria-label="GitHub"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="mailto:dana.issa00@gmail.com" aria-label="Email"
+                ><i class="fas fa-envelope"></i
+              ></a>
+              <a href="tel:+96170806571" aria-label="Phone"
+                ><i class="fas fa-phone"></i
+              ></a>
+            </div>
+          </div>
         </div>
-        <div class="scroll-indicator">
-            <a href="#about" aria-label="Scroll down">
-                <i class="fas fa-chevron-down"></i>
-            </a>
-        </div>
+      </div>
+      <div class="scroll-indicator">
+        <a href="#about" aria-label="Scroll down">
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">Get To Know Me</span>
-                <h2 class="section-title">About Me</h2>
-            </div>
-            <div class="about-content">
-                <div class="about-image">
-                    <div class="image-wrapper">
-                        <img src="assets/images/Dana.png" alt="Dana Issa - Flutter Developer">
-                    </div>
-                </div>
-                <div class="about-text">
-                    <h3>Professional Background</h3>
-                    <p>
-                        I am a motivated and detail-oriented Flutter Developer with hands-on experience in mobile app 
-                        development and QA testing. Currently working as a Mobile Developer at Skew, I specialize in 
-                        building and maintaining cross-platform applications using Flutter and Dart.
-                    </p>
-                    <p>
-                        I'm also expanding my expertise through the OnRamp Academy x Forward MENA Full Stack Development 
-                        Bootcamp, where I'm developing modern web applications using Next.js, NestJS, TypeScript, and 
-                        PostgreSQL. I'm passionate about creating intuitive user experiences and delivering scalable, 
-                        high-quality software solutions.
-                    </p>
-                    <div class="about-stats">
-                        <div class="stat-item">
-                            <span class="stat-number" data-target="1">0</span>
-                            <span class="stat-label">Years Experience</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number" data-target="5">0</span>
-                            <span class="stat-label">Projects Completed</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number" data-target="3">0</span>
-                            <span class="stat-label">Certifications</span>
-                        </div>
-                    </div>
-                    <a href="DanaIssa_CV_Feb2026.pdf" class="btn btn-primary" download>
-                        <i class="fas fa-download"></i> Download CV
-                    </a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Get To Know Me</span>
+          <h2 class="section-title">About Me</h2>
         </div>
+        <div class="about-content">
+          <div class="about-image">
+            <div class="image-wrapper">
+              <img
+                src="assets/images/Dana.png"
+                alt="Dana Issa - Flutter Developer"
+              />
+            </div>
+          </div>
+          <div class="about-text">
+            <h3>Professional Background</h3>
+            <p>
+              I am a motivated and detail-oriented Flutter Developer with
+              hands-on experience in mobile app development and QA testing.
+              Currently working as a Mobile Developer at Skew, I specialize in
+              building and maintaining cross-platform applications using Flutter
+              and Dart.
+            </p>
+            <p>
+              I'm also expanding my expertise through the OnRamp Academy x
+              Forward MENA Full Stack Development Bootcamp, where I'm developing
+              modern web applications using Next.js, NestJS, TypeScript, and
+              PostgreSQL. I'm passionate about creating intuitive user
+              experiences and delivering scalable, high-quality software
+              solutions.
+            </p>
+            <div class="about-stats">
+              <div class="stat-item">
+                <span class="stat-number" data-target="1">1.6</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number" data-target="5">4</span>
+                <span class="stat-label">Projects Completed</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number" data-target="3">4</span>
+                <span class="stat-label">Certifications</span>
+              </div>
+            </div>
+            <a href="DanaIssa_CV_Feb2026.pdf" class="btn btn-primary" download>
+              <i class="fas fa-download"></i> Download CV
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills" class="skills section section-alt">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">What I Do</span>
-                <h2 class="section-title">My Skills</h2>
-            </div>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <div class="skill-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>Technical Skills</h3>
-                    <div class="skill-list">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Flutter / Dart</span>
-                                <span class="skill-percent">90%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="90"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">TypeScript / JavaScript</span>
-                                <span class="skill-percent">85%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="85"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Next.js / NestJS</span>
-                                <span class="skill-percent">80%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="80"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">HTML / CSS / PHP</span>
-                                <span class="skill-percent">85%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="85"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">C++ / Python / Java</span>
-                                <span class="skill-percent">75%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="75"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <div class="skill-icon">
-                        <i class="fas fa-tools"></i>
-                    </div>
-                    <h3>Tools & Technologies</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Visual Studio Code</span>
-                        <span class="skill-tag">Git & GitHub</span>
-                        <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">PostgreSQL</span>
-                        <span class="skill-tag">MySQL</span>
-                        <span class="skill-tag">Oracle</span>
-                        <span class="skill-tag">Prisma ORM</span>
-                        <span class="skill-tag">REST APIs</span>
-                        <span class="skill-tag">NetBeans</span>
-                        <span class="skill-tag">MATLAB</span>
-                        <span class="skill-tag">Proteus</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <div class="skill-icon">
-                        <i class="fas fa-lightbulb"></i>
-                    </div>
-                    <h3>Soft Skills</h3>
-                    <ul class="skill-bullet-list">
-                        <li><i class="fas fa-check"></i> Communication & Teamwork</li>
-                        <li><i class="fas fa-check"></i> Problem Solving</li>
-                        <li><i class="fas fa-check"></i> Time Management</li>
-                        <li><i class="fas fa-check"></i> Adaptability</li>
-                        <li><i class="fas fa-check"></i> Attention to Detail</li>
-                        <li><i class="fas fa-check"></i> Multitasking</li>
-                        <li><i class="fas fa-check"></i> QA & Testing</li>
-                        <li><i class="fas fa-check"></i> Bug Reporting & Documentation</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <div class="skill-icon">
-                        <i class="fas fa-language"></i>
-                    </div>
-                    <h3>Languages</h3>
-                    <div class="skill-list">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Arabic</span>
-                                <span class="skill-percent">Native</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="100"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">English</span>
-                                <span class="skill-percent">Highly Proficient</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="95"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">French</span>
-                                <span class="skill-percent">Highly Proficient</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="95"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">What I Do</span>
+          <h2 class="section-title">My Skills</h2>
         </div>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <div class="skill-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>Technical Skills</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Flutter / Dart</span>
+                  <span class="skill-percent">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="90"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">TypeScript / JavaScript</span>
+                  <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="85"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Node.js / Express.js</span>
+                  <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="85"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">React / Vite</span>
+                  <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="85"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Next.js / NestJS</span>
+                  <span class="skill-percent">80%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="80"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">HTML / CSS / PHP</span>
+                  <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="85"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">C++ / Python / Java</span>
+                  <span class="skill-percent">75%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="75"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <div class="skill-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h3>Tools & Technologies</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Visual Studio Code</span>
+              <span class="skill-tag">Git & GitHub</span>
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">Prisma ORM</span>
+              <span class="skill-tag">REST APIs</span>
+              <span class="skill-tag">NetBeans</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <div class="skill-icon">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h3>Soft Skills</h3>
+            <ul class="skill-bullet-list">
+              <li><i class="fas fa-check"></i> Communication & Teamwork</li>
+              <li><i class="fas fa-check"></i> Problem Solving</li>
+              <li><i class="fas fa-check"></i> Time Management</li>
+              <li><i class="fas fa-check"></i> Adaptability</li>
+              <li><i class="fas fa-check"></i> Attention to Detail</li>
+              <li><i class="fas fa-check"></i> Multitasking</li>
+              <li><i class="fas fa-check"></i> QA & Testing</li>
+              <li>
+                <i class="fas fa-check"></i> Bug Reporting & Documentation
+              </li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <div class="skill-icon">
+              <i class="fas fa-language"></i>
+            </div>
+            <h3>Languages</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Arabic</span>
+                  <span class="skill-percent">Native</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="100"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">English</span>
+                  <span class="skill-percent">Highly Proficient</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="95"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">French</span>
+                  <span class="skill-percent">Highly Proficient</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="95"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Experience Section -->
     <section id="experience" class="experience section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">My Journey</span>
-                <h2 class="section-title">Work Experience</h2>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <span class="timeline-date">Nov 2024 - Present</span>
-                        <h3>Mobile Developer</h3>
-                        <h4>Skew - Software Development Company (Remote)</h4>
-                        <p>
-                            Developing and enhancing mobile applications using Flutter and Dart, while performing 
-                            rigorous QA testing to ensure optimal performance and user experience.
-                        </p>
-                        <ul class="achievement-list">
-                            <li>Improved feature delivery speed by 30% through efficient Flutter development</li>
-                            <li>Reduced integration issues by 25% through effective cross-functional collaboration</li>
-                            <li>Enhanced app responsiveness and maintainability by 20% with optimized UI components</li>
-                            <li>Executed manual QA testing and documented results to improve product quality</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <span class="timeline-date">Jul 2024 - Nov 2024</span>
-                        <h3>Mobile Developer Intern</h3>
-                        <h4>Skew - Software Development Company (Beirut, Lebanon)</h4>
-                        <p>
-                            Gained hands-on experience in mobile application development using Flutter and Dart, 
-                            working on real-world projects in a professional environment.
-                        </p>
-                        <ul class="achievement-list">
-                            <li>Developed mobile applications using Flutter and Dart in Visual Studio Code</li>
-                            <li>Implemented responsive user interfaces with Flutter widgets</li>
-                            <li>Integrated RESTful APIs to enhance application functionality</li>
-                            <li>Applied state management techniques for optimal app performance</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <span class="timeline-date">Dec 2025 - Present</span>
-                        <h3>Full Stack Development Bootcamp</h3>
-                        <h4>OnRamp Academy x Forward MENA (Beirut, Lebanon)</h4>
-                        <p>
-                            Selected among 25 participants out of 153 applicants for an intensive full stack 
-                            development program focused on modern web technologies and AI-assisted development.
-                        </p>
-                        <ul class="achievement-list">
-                            <li>Developing full stack applications with Next.js, NestJS, TypeScript, and PostgreSQL</li>
-                            <li>Working on real-world projects involving system design, APIs, and databases</li>
-                            <li>Applying best practices in software engineering and collaborative workflows</li>
-                            <li>Participating in professional soft skills workshops</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">My Journey</span>
+          <h2 class="section-title">Work Experience</h2>
         </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Nov 2024 - Present</span>
+              <h3>Mobile Developer</h3>
+              <h4>Skew - Software Development Company (Remote)</h4>
+              <p>
+                Developing and enhancing mobile applications using Flutter and
+                Dart, while performing rigorous QA testing to ensure optimal
+                performance and user experience.
+              </p>
+              <ul class="achievement-list">
+                <li>
+                  Improved feature delivery speed by 30% through efficient
+                  Flutter development
+                </li>
+                <li>
+                  Reduced integration issues by 25% through effective
+                  cross-functional collaboration
+                </li>
+                <li>
+                  Enhanced app responsiveness and maintainability by 20% with
+                  optimized UI components
+                </li>
+                <li>
+                  Executed manual QA testing and documented results to improve
+                  product quality
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Dec 2025 - Present</span>
+              <h3>Full Stack Development Bootcamp</h3>
+              <h4>OnRamp Academy x Forward MENA (Beirut, Lebanon)</h4>
+              <p>
+                Selected among 25 participants out of 153 applicants for an
+                intensive full stack development program focused on modern web
+                technologies and AI-assisted development.
+              </p>
+              <ul class="achievement-list">
+                <li>
+                  Developing full stack applications with Next.js, NestJS,
+                  TypeScript, and PostgreSQL
+                </li>
+                <li>
+                  Working on real-world projects involving system design, APIs,
+                  and databases
+                </li>
+                <li>
+                  Applying best practices in software engineering and
+                  collaborative workflows
+                </li>
+                <li>Participating in professional soft skills workshops</li>
+              </ul>
+            </div>
+          </div>  
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Jul 2024 - Nov 2024</span>
+              <h3>Mobile Developer Intern</h3>
+              <h4>Skew - Software Development Company (Beirut, Lebanon)</h4>
+              <p>
+                Gained hands-on experience in mobile application development
+                using Flutter and Dart, working on real-world projects in a
+                professional environment.
+              </p>
+              <ul class="achievement-list">
+                <li>
+                  Developed mobile applications using Flutter and Dart in Visual
+                  Studio Code
+                </li>
+                <li>
+                  Implemented responsive user interfaces with Flutter widgets
+                </li>
+                <li>
+                  Integrated RESTful APIs to enhance application functionality
+                </li>
+                <li>
+                  Applied state management techniques for optimal app
+                  performance
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Education Section -->
     <section id="education" class="education section section-alt">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">Academic Background</span>
-                <h2 class="section-title">Education</h2>
-            </div>
-            <div class="education-grid">
-                <div class="education-card">
-                    <div class="education-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <span class="education-date">Oct 2021 - Present</span>
-                    <h3>Bachelor of Science</h3>
-                    <h4>Islamic University of Lebanon</h4>
-                    <p>Computer and Communication Engineering</p>
-                    <div class="education-details">
-                        <span class="detail-badge">Wardeniyeh, Lebanon</span>
-                    </div>
-                </div>
-                <div class="education-card">
-                    <div class="education-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <span class="education-date">Apr 2024</span>
-                    <h3>Flutter Development</h3>
-                    <h4>Simplilearn</h4>
-                    <p>Introduction to Flutter Course - Mobile app development certification</p>
-                </div>
-                <div class="education-card">
-                    <div class="education-icon">
-                        <i class="fas fa-award"></i>
-                    </div>
-                    <span class="education-date">Jan 2024</span>
-                    <h3>Generative AI</h3>
-                    <h4>Google Cloud - Coursera</h4>
-                    <p>Introduction to Generative AI certification</p>
-                </div>
-                <div class="education-card">
-                    <div class="education-icon">
-                        <i class="fas fa-award"></i>
-                    </div>
-                    <span class="education-date">Aug 2023</span>
-                    <h3>Web Design</h3>
-                    <h4>freeCodeCamp</h4>
-                    <p>Responsive Web Design certification</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Academic Background</span>
+          <h2 class="section-title">Education</h2>
         </div>
+        <div class="education-grid">
+          <div class="education-card">
+            <div class="education-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <span class="education-date">Oct 2021 - Present</span>
+            <h3>Bachelor of Science</h3>
+            <h4>Islamic University of Lebanon</h4>
+            <p>Computer and Communication Engineering</p>
+            <div class="education-details">
+              <span class="detail-badge">Wardeniyeh, Lebanon</span>
+            </div>
+          </div>
+          <div class="education-card">
+            <div class="education-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <span class="education-date">Apr 2024</span>
+            <h3>Flutter Development</h3>
+            <h4>Simplilearn</h4>
+            <p>
+              Introduction to Flutter Course - Mobile app development
+              certification
+            </p>
+          </div>
+          <div class="education-card">
+            <div class="education-icon">
+              <i class="fas fa-award"></i>
+            </div>
+            <span class="education-date">Jan 2024</span>
+            <h3>Generative AI</h3>
+            <h4>Google Cloud - Coursera</h4>
+            <p>Introduction to Generative AI certification</p>
+          </div>
+          <div class="education-card">
+            <div class="education-icon">
+              <i class="fas fa-award"></i>
+            </div>
+            <span class="education-date">Aug 2023</span>
+            <h3>Web Design</h3>
+            <h4>freeCodeCamp</h4>
+            <p>Responsive Web Design certification</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="projects section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">My Work</span>
-                <h2 class="section-title">Featured Projects</h2>
-            </div>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-users-cog"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <a href="#" class="project-link" aria-label="View project"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>HR Management SaaS Platform</h3>
-                        <p>Multi-tenant HR management system with RBAC, secure authentication, and scalable RESTful APIs in a monorepo architecture.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Next.js</span>
-                            <span class="project-tag">NestJS</span>
-                            <span class="project-tag">TypeScript</span>
-                            <span class="project-tag">PostgreSQL</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-utensils"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <a href="#" class="project-link" aria-label="View project"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>SmartBite - Food Ordering System</h3>
-                        <p>Full desktop application for healthy food ordering management with comprehensive reporting and database architecture.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Java</span>
-                            <span class="project-tag">MySQL</span>
-                            <span class="project-tag">NetBeans</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-mobile-alt"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <a href="#" class="project-link" aria-label="View project"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Flutter Mobile Applications</h3>
-                        <p>Cross-platform mobile applications with responsive UI, RESTful API integration, and efficient state management.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Flutter</span>
-                            <span class="project-tag">Dart</span>
-                            <span class="project-tag">REST APIs</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">My Work</span>
+          <h2 class="section-title">Featured Projects</h2>
         </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fas fa-users-cog"></i>
+              </div>
+              <div class="project-overlay">
+                <a href="#" class="project-link" aria-label="View project"
+                  ><i class="fas fa-external-link-alt"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>HR Management SaaS Platform</h3>
+              <p>
+                Multi-tenant HR management system with RBAC, secure
+                authentication, and scalable RESTful APIs in a monorepo
+                architecture.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Next.js</span>
+                <span class="project-tag">NestJS</span>
+                <span class="project-tag">TypeScript</span>
+                <span class="project-tag">PostgreSQL</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fas fa-utensils"></i>
+              </div>
+              <div class="project-overlay">
+                <a href="#" class="project-link" aria-label="View project"
+                  ><i class="fas fa-external-link-alt"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>SmartBite - Food Ordering System</h3>
+              <p>
+                Full desktop application for healthy food ordering management
+                with comprehensive reporting and database architecture.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Java</span>
+                <span class="project-tag">MySQL</span>
+                <span class="project-tag">NetBeans</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <div class="project-overlay">
+                <a href="#" class="project-link" aria-label="View project"
+                  ><i class="fas fa-external-link-alt"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Flutter Mobile Applications</h3>
+              <p>
+                Cross-platform mobile applications with responsive UI, RESTful
+                API integration, and efficient state management.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Flutter</span>
+                <span class="project-tag">Dart</span>
+                <span class="project-tag">REST APIs</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact section section-alt">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">Get In Touch</span>
-                <h2 class="section-title">Contact Me</h2>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's Work Together</h3>
-                    <p>
-                        I'm always interested in hearing about new projects and opportunities. 
-                        Whether you have a question or just want to say hi, feel free to reach out!
-                    </p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="contact-text">
-                                <h4>Email</h4>
-                                <a href="mailto:dana.issa00@gmail.com">dana.issa00@gmail.com</a>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <div class="contact-text">
-                                <h4>Phone</h4>
-                                <a href="tel:+96170806571">+961 70 806 571</a>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div>
-                            <div class="contact-text">
-                                <h4>Location</h4>
-                                <p>Lebanon</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contact-social">
-                        <a href="https://www.linkedin.com/in/dana-issa-a9a057290" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="mailto:dana.issa00@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
-                    </div>
-                </div>
-                <div class="contact-form-wrapper">
-                    <form class="contact-form" id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">
-                            <span>Send Message</span>
-                            <i class="fas fa-paper-plane"></i>
-                        </button>
-                    </form>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Get In Touch</span>
+          <h2 class="section-title">Contact Me</h2>
         </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Let's Work Together</h3>
+            <p>
+              I'm always interested in hearing about new projects and
+              opportunities. Whether you have a question or just want to say hi,
+              feel free to reach out!
+            </p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>Email</h4>
+                  <a href="mailto:dana.issa00@gmail.com"
+                    >dana.issa00@gmail.com</a
+                  >
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>Phone</h4>
+                  <a href="tel:+96170806571">+961 70 806 571</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>Location</h4>
+                  <p>Lebanon</p>
+                </div>
+              </div>
+            </div>
+            <div class="contact-social">
+              <a
+                href="https://www.linkedin.com/in/dana-issa-a9a057290"
+                target="_blank"
+                aria-label="LinkedIn"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://github.com" target="_blank" aria-label="GitHub"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="mailto:dana.issa00@gmail.com" aria-label="Email"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-form-wrapper">
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                <span>Send Message</span>
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2026 Dana Issa. All rights reserved.</p>
-                <p class="footer-tagline">Built with passion and dedication</p>
-            </div>
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2026 Dana Issa. All rights reserved.</p>
+          <p class="footer-tagline">Built with passion and dedication</p>
         </div>
+      </div>
     </footer>
 
     <!-- Back to Top Button -->
     <button class="back-to-top" id="backToTop" aria-label="Back to top">
-        <i class="fas fa-arrow-up"></i>
+      <i class="fas fa-arrow-up"></i>
     </button>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

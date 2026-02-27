@@ -6,7 +6,7 @@ A modern, responsive, and attractive portfolio website showcasing professional e
 
 - **Responsive Design**: Fully responsive layout that works seamlessly on all devices (desktop, tablet, mobile)
 - **Modern UI/UX**: Clean, professional design with smooth animations and transitions
-- **Interactive Elements**: 
+- **Interactive Elements**:
   - Typing animation in hero section
   - Smooth scrolling navigation
   - Animated skill bars
@@ -51,14 +51,16 @@ A modern, responsive, and attractive portfolio website showcasing professional e
 ### Personal Information
 
 #### Update Your Name and Title
+
 In `index.html`, find and update:
+
 ```html
 <!-- Line ~16 -->
 <title>Dana Issa | Portfolio</title>
 
 <!-- Line ~19 -->
 <div class="nav-brand">
-    <a href="#home">Dana Issa</a>
+  <a href="#home">Dana Issa</a>
 </div>
 
 <!-- Line ~42 -->
@@ -66,16 +68,15 @@ In `index.html`, find and update:
 ```
 
 In `script.js`, update the typing animation titles (line ~67):
+
 ```javascript
-const titles = [
-    'Your Title 1',
-    'Your Title 2',
-    'Your Title 3'
-];
+const titles = ['Your Title 1', 'Your Title 2', 'Your Title 3'];
 ```
 
 #### Update Contact Information
+
 In `index.html`, find the contact section (around line ~400) and update:
+
 - Email address
 - Phone number
 - Location
@@ -84,54 +85,62 @@ In `index.html`, find the contact section (around line ~400) and update:
 ### Content Updates
 
 #### About Section
+
 Update your bio text in the About section (around line ~85 in `index.html`)
 
 #### Skills
+
 1. **Technical Skills**: Update skill names and percentages (around line ~115)
 2. **Tools & Technologies**: Modify skill tags (around line ~145)
 3. **Soft Skills**: Update the bullet list (around line ~160)
 
 #### Experience
+
 Update the timeline items with your work history (around line ~180)
 
 #### Education
+
 Modify education cards with your academic background (around line ~240)
 
 #### Projects
+
 Update project cards with your portfolio work (around line ~280)
 
 ### Colors and Styling
 
 Update the color scheme in `style.css` (lines 12-20):
+
 ```css
 :root {
-    --primary-color: #6366f1;
-    --secondary-color: #ec4899;
-    --accent-color: #14b8a6;
-    /* ... other colors */
+  --primary-color: #6366f1;
+  --secondary-color: #ec4899;
+  --accent-color: #14b8a6;
+  /* ... other colors */
 }
 ```
 
 ### Adding Your Photo
 
 Replace the placeholder in the About section:
+
 ```html
 <!-- Find this in index.html around line 90 -->
 <div class="image-placeholder">
-    <i class="fas fa-user"></i>
+  <i class="fas fa-user"></i>
 </div>
 
 <!-- Replace with: -->
-<img src="assets/images/profile.jpg" alt="Dana Issa">
+<img src="assets/images/profile.jpg" alt="Dana Issa" />
 ```
 
 Then update the CSS:
+
 ```css
 /* In style.css, update .image-wrapper */
 .image-wrapper img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 ```
 
@@ -142,55 +151,63 @@ Then update the CSS:
 3. The HTML already includes the favicon link
 
 You can generate a favicon for free at:
+
 - [Favicon.io](https://favicon.io/)
 - [RealFaviconGenerator](https://realfavicongenerator.net/)
 
 ### Adding Project Images
 
 Replace project placeholders:
+
 ```html
 <!-- Find in index.html around line 295 -->
 <div class="project-placeholder">
-    <i class="fas fa-laptop-code"></i>
+  <i class="fas fa-laptop-code"></i>
 </div>
 
 <!-- Replace with: -->
-<img src="assets/images/project-hr-system.jpg" alt="HR Management System">
+<img src="assets/images/project-hr-system.jpg" alt="HR Management System" />
 ```
 
 Add corresponding CSS:
+
 ```css
 /* In style.css */
 .project-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 ```
 
 ### CV/Resume Download
 
 Place your CV PDF in the same folder as `index.html` and name it `DanaIssa_CV_Feb2026.pdf`, or update the link in the About section:
+
 ```html
-<a href="your-cv-filename.pdf" class="btn btn-primary" download>
+<a href="your-cv-filename.pdf" class="btn btn-primary" download></a>
 ```
 
 ## 🎨 Customization Tips
 
 ### Fonts
+
 The portfolio uses:
+
 - **Inter** for body text
 - **Playfair Display** for headings
 
 To change fonts, update the Google Fonts import in `index.html` (line ~10) and the CSS variables in `style.css`.
 
 ### Animations
+
 Adjust animation speeds by modifying CSS custom properties:
+
 ```css
 :root {
-    --transition-fast: 0.2s ease;
-    --transition-base: 0.3s ease;
-    --transition-slow: 0.5s ease;
+  --transition-fast: 0.2s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease;
 }
 ```
 
